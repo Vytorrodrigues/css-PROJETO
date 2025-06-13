@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+section.content {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    position: relative;
+    gap: 2rem;
+    top: 12rem;
+}
+
+
+aside.image_ONG img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 409px;
+    height: 307px;
+}
+
+aside h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+aside span{
+    color: #FF5678;
+}
+
+main {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00000026;
+    border-radius: 15px;
+    width: 603px;
+    height: 520px;
+    padding: 1.4rem;
+    text-align: center;
+}
+
+main .informe h2 {
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+
+main .informe span:nth-child(n - 1) {
+    color:#FF5678;
+}
+
+main .bottons {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-flow: wrap row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+main .bottons a{
+    text-align: center;
+    width: 26rem;
+    padding: 0.7rem;
+    border-radius: 12px;
+    box-shadow: 0 0 4px #00000026;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+main .bottons a{
+    background-color: #FF5678;
+}
+
+main .bottons a:nth-child(2n - 1) {
+    background-color: #35E6E9;
+}
+
+footer {
+    display: block;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+
+
+footer a {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 500;
+    color: black;
+    font-size: 1.2rem;
+}

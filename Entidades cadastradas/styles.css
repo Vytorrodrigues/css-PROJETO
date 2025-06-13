@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+section.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13rem;
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: left;
+    align-items: left;
+    border: 1px solid #00000026;
+    border-radius: 15px;
+    width: 800px;
+    height: 505px;
+    padding: 1.2rem;
+}
+
+main span:nth-child(2n - 1) {
+    color:#FF5678;
+}
+
+main header a {
+    text-decoration: none;
+    font-family: "Poppins";
+    font-size: 1.8rem;
+    color:#FF5678;
+}
+
+main header {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+main header h2 {
+    font-size: 2rem;
+}
+article .content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 1.3rem;
+    gap: 1.5rem;
+}
+
+article .content div {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid #00000036;
+    width: 40rem;
+}
+
+.content p {
+    display: inline-flex;
+    margin-bottom: 1.4rem;
+}
+
+.content .footer {
+    border-bottom: #fff;
+}
+
+article a.botao{
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #35E6E9;
+    color: #35E6E9;
+    border-radius: 15px;
+    padding: 0.5rem;
+    font-size: 1.4rem;
+    width: 18rem;
+    margin: 0px 2rem 0px 2rem;
+}
+
+article a.dados {
+    color:#FF5678;
+}
